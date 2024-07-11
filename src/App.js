@@ -4,18 +4,18 @@ import About from './components/About';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
-function cbutton ({text}){
-    function handleClick() {
-        alert('You clicked me!');
-    }
-    return (
-        <div>
-            <button onClick={handleClick}>{text}</button>
-        </div>
-    )
-}
+// function cbutton ({text}){
+//     function handleClick() {
+//         alert('You clicked me!');
+//     }
+//     return (
+//         <div>
+//             <button onClick={handleClick}>{text}</button>
+//         </div>
+//     )
+// }
 
-function Landing_page() {
+function Landing() {
     return (
         <>
         <Router>
@@ -47,7 +47,7 @@ function App() {
         <div className="App">
         <header className="App-header">
         <p>
-        <Landing_page />
+        <Landing />
         {
             // <Greet name="React"/>
             // <Mybutton text="wow"/>
