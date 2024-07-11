@@ -18,7 +18,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function Landing() {
     return (
         <>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
         <Navbar />
         <Routes>
